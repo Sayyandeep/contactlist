@@ -69,6 +69,6 @@ res.json(docs);
 });
 });
 });
-var port = 8000 ;
+var port = process.env.PORT ;
 app.listen(port);
-console.log('Server running on port 8000');
+console.log('Server running on port' +port);
